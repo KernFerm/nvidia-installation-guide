@@ -1,6 +1,6 @@
 # 🚀 NVIDIA CUDA Installation Guide
 
-This guide provides a comprehensive walkthrough for installing NVIDIA CUDA Toolkit 11.8, cuDNN, and TensorRT on Windows. It covers the download and installation process, environment setup, and configuration of Python packages like Cupy and TensorRT. Follow this guide to ensure your system is properly configured for CUDA development, with clear instructions for setting environment variables and verifying installations via cmd.exe
+This guide walks you through installing NVIDIA CUDA Toolkit 11.8, cuDNN, and TensorRT on Windows, including setting up Python packages like Cupy and TensorRT. It ensures proper system configuration for CUDA development, with steps for setting environment variables and verifying installation via cmd.exe
 
 ### 1. **Download the NVIDIA CUDA Toolkit 11.8**
 
