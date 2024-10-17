@@ -135,6 +135,7 @@ print(torch.cuda.is_available())  # This will return True if CUDA is available
 print(torch.version.cuda)  # This will print the CUDA version being used
 print(torch.cuda.get_device_name(0))  # This will print the name of the GPU, e.g., 'NVIDIA GeForce RTX GPU Model'
 ```
+run the `get_device.py` to see if you installed it correctly 
 
 ## Cuda Requirements
 - run the `cuda-requirements.bat` after you get done with installion of nvidia.
