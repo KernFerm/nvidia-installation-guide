@@ -1,6 +1,6 @@
 @echo off
 
-REM Install PyTorch 2.4.1+cu118, TorchVision 0.19.1+cu118, and Torchaudio 2.4.1+cu118 with CUDA 11.8 support
+REM Install PyTorch 2.5.0+cu118+cu118, TorchVision 0.20.0+cu118, and Torchaudio 2.5.0+cu118+cu118 with CUDA 11.8 support
 
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
