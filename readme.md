@@ -180,16 +180,6 @@ pip install numpy
 echo Press enter to continue with the rest of the dependency installs
 pause
 
-echo Installing PyTorch 2.4.1 with CUDA 11.8...
-pip install torch==2.4.1+cu118
-echo Press enter to continue with the rest of the dependency installs
-pause
-
-echo Installing TorchVision 0.19.1 with CUDA 11.8...
-pip install torchvision==0.19.1+cu118
-echo Press enter to continue with the rest of the dependency installs
-pause
-
 echo All packages installed successfully!
 pause
 ```
