@@ -180,6 +180,11 @@ pip install numpy
 echo Press enter to continue with the rest of the dependency installs
 pause
 
+echo Installing cupy-cuda11x...
+pip install cupy-cuda11x
+echo Press enter to continue with the rest of the dependency installs
+pause
+
 echo All packages installed successfully!
 pause
 ```
