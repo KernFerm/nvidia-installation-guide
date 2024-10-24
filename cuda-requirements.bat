@@ -37,8 +37,21 @@ pip install numpy
 echo Press enter to continue with the rest of the dependency installs
 pause
 
-echo Installing cupy-cuda11x...
-pip install cupy-cuda11x
+:: Installing PyCUDA (Optional, required for some CUDA functionalities)
+echo Installing PyCUDA...
+pip install pycuda
+echo Press enter to continue with the rest of the dependency installs
+pause
+
+:: Installing Protobuf (Required for ONNX operations)
+echo Installing Protobuf...
+pip install protobuf==4.23.3
+echo Press enter to continue with the rest of the dependency installs
+pause
+
+:: Optional: Installing additional tools
+echo Installing Additional Tools like Scipy and Matplotlib...
+pip install scipy matplotlib
 echo Press enter to continue with the rest of the dependency installs
 pause
 
