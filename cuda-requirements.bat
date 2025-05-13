@@ -13,7 +13,7 @@ echo Press enter to continue with the rest of the dependency installs
 pause
 
 echo Installing ONNX Runtime with GPU support...
-pip install onnxruntime-gpu==1.19.2
+pip install onnxruntime-gpu==1.21.1 --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/_packaging/onnxruntime-cuda-11/pypi/simple/ --extra-index-url https://pypi.org/simple
 echo Press enter to continue with the rest of the dependency installs
 pause
 
