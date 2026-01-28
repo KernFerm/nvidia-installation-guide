@@ -6,4 +6,4 @@ onnx==1.19.1
 onnxruntime-gpu==1.15.1
 numpy==1.26.4  # Required for PyTorch and ONNX operations
 scipy  # Optional, useful for scientific computing if needed
-onnx-simplifier
+onnx-simplifier==0.4.36
