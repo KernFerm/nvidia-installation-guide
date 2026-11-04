@@ -1,4 +1,4 @@
-pip==26.2.0
+pip==26.3
 Flask==3.1.3
-gunicorn==26.1.0
-Werkzeug==3.1.8  # Updated to patch the vulnerability
+gunicorn==26.2.0
+Werkzeug==3.1.9  # Updated to patch the vulnerability
